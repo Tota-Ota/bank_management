@@ -1,0 +1,101 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url("wallhaven-x8ye3z.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-top: 0;
+    color: #ffffff;
+  }
+  
+  button {
+    display: block;
+    margin: 10px auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #868686;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #account-form {
+    display: none;
+  }
+  
+  #account-form h2 {
+    margin-top: 0;
+    color: #ffffff;
+  }
+  
+  #account-form label {
+    display: block;
+    margin-top: 10px;
+    color: #ffffff;
+  }
+  
+  #account-form input[type="text"],
+  #account-form input[type="number"],
+  #account-form input[type="date"],
+  #account-form input[type="tel"],
+  #account-form textarea {
+    width: 100%;
+    padding: 5px;
+    font-size: 14px;
+    border: 1px solid #ffffff;
+    border-radius: 3px;
+  }
+  
+  #account-form input[type="submit"] {
+    display: block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #616161;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #account-list {
+    margin-top: 20px;
+  }
+  
+  #account-list li {
+    margin-bottom: 10px;
+    background-color: rgba(255, 255, 255, 0.705);
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  #account-list span {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+  }
+  
+  #account-list button {
+    margin-left: 10px;
+    padding: 5px 10px;
+    background-color: #555555;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
