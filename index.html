@@ -7,31 +7,49 @@
 <body>
   <h1>Bank Management System</h1>
 
-  <button id="new-account-btn">New Account</button>
 
+
+  <div class="main-header">
+    <div class="right-header">
+
+    </div>
+
+    <div class="header" >
+      <img src="logoog.png" style="width:35%" style="margin-left: 30px;">
+    </div>
+
+    <div  class="sub-header" >
+      <img src="menucurve.jpg">
+      <button class="new-account-btn" id="new-account-btn">New Account</button>
+    </div>
+   
+  </div>
+
+
+  </div>
   <div id="account-form" style="display: none;">
     <h2>Create New Account</h2>
     <form id="new-account-form">
       <label for="first-name">First Name:</label>
-      <input type="text" id="first-name" required>
+      <input type="text" id="first-name" required placeholder="Please Enter Your First Name">
       <br>
       <label for="last-name">Last Name:</label>
-      <input type="text" id="last-name" required>
+      <input type="text" id="last-name" required placeholder="Please Enter Your Last Name">
       <br>
       <label for="account-number">Account Number:</label>
-      <input type="text" id="account-number" required pattern="[0-9]{8}">
+      <input type="number" id="account-number" required pattern="[0-9]{6}" placeholder="Please Enter Your 6 Digit Acount Number">
       <br>
       <label for="balance">Balance:</label>
-      <input type="number" id="balance" required min="12000">
+      <input type="number" id="balance" required min="12000" placeholder="Minimum Balance 12000">
       <br>
       <label for="dob">Date of Birth:</label>
-      <input type="date" id="dob" required>
+      <input type="date" id="dob" required max="12/31/2009">
       <br>
       <label for="phone">Phone Number:</label>
-      <input type="tel" id="phone" required pattern="[0-9]{10}">
+      <input type="tel" id="phone" required pattern="[0-9]{10}" placeholder="Please Enter Your Phone Number">
       <br>
       <label for="address">Address:</label>
-      <textarea id="address" required></textarea>
+      <textarea id="address" required placeholder="Please Enter Your Address"></textarea>
       <br>
       <input type="submit" value="Submit">
     </form>
